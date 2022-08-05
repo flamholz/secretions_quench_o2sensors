@@ -1,0 +1,15 @@
+﻿label,strain,source color,media,OD500
+AF-5-c1,PA14 WT,dark blue,MM glucose,1.505
+AF-5-c2,PA14 WT,blue green,MM glucose,1.56
+AF-5-c3,PA14 dphz,yellow grey,MM glucose,1.48
+AF-5-c4,PA14 dphz,yellow grey,MM glucose,1.63
+AF-5-c5,PA14 dside,blue,MM glucose,1.55
+AF-5-c6,PA14 dside,blue,MM glucose,1.37
+AF-5-c7,PA14 dphz dside,yellow grey,MM glucose,1.555
+AF-5-c8,PA14 dphz dside,yellow grey,MM glucose,1.645
+AF-5-c9,EC WT,grey,MM glucose,2.375
+AF-5-c10,EC WT,grey,MM glucose,2.395
+AF-5-c11,BG WT,yellow grey,MM glucose + AA,2.54
+AF-5-c12,BG WT,yellow grey,MM glucose + AA,2.45
+AF-5-c13,BG dtox,grey,MM glucose + AA,2.5
+AF-5-c14,BG dtox,grey,MM glucose + AA,2.715
