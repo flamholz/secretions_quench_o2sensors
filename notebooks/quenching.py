@@ -177,6 +177,7 @@ def fit_quenching_linear_unitless(post_df, names):
         'K_SV': [],
         'K_SV err': [],
         'R': [],
+        'N_concs': [],
     }
     for qname in names:
         print('Fitting {0}'.format(qname))
@@ -186,6 +187,9 @@ def fit_quenching_linear_unitless(post_df, names):
         corr = qdf.corr().loc['concentration', 'F0_F_ratio']
         quencher_dict['R'].append(corr)
         print('\tF0/F ~ [{0}] with R = {1:.3f}'.format(qname, corr))
+        n_concs = qdf.concentration.unique().size
+        print('\tData for {0} concentrations'.format(n_concs))
+        quencher_dict['N_concs'].append(n_concs)
 
         # Do a linear fit to the canonical SV model and record the fit slope.
         concs = qdf.concentration.values.copy()
